@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="js/lampada.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo(a) ao puzzle da la&#770;mpada.</h1>
+        <p>Para jogar e&#769; simples. Basta clicar nos boto&#771;es para acender as la&#770;mpadas.</p>
+        <p>Quando as tre&#770;s la&#770;mpadas estiverem acesas, você vence o jogo.</p>
+        <p>Voce&#770; ganha 5 pontos por la&#770;mpadas acesa.</p>
+    </header>   
+
+    <main>
+        <img id ="lamp1" src="img/pic_bulboff.gif">
+        <img id ="lamp2" src="img/pic_bulboff.gif">
+        <img id ="lamp3" src="img/pic_bulboff.gif">
+
+        <p>Pontos</p>
+        <p id="pontos"></p>
+
+        <p>Cliques</p>
+        <p id="cliques"></p>
+    </main>
+
+    <section>
+        <button onclick="botao1()">Bota&#771;o 1</button>
+        <button onclick="botao2()">Bota&#771;o 2</button>
+        <button onclick="botao3()">Bota&#771;o 3</button>
+        <button onclick="botao4()">Bota&#771;o 4</button>
+        <button onclick="botao5()">Bota&#771;o 5</button>
+        <button onclick="botao6()">Bota&#771;o 6</button><br>
+        <button onclick="ligarTudo()">Ligar todas as La&#770;mpada</button>
+        <button onclick="apagarTudo()">Apagar todas as La&#770;mpada</button>
+    </section>
+
+    <!--<script>
+        mostrarPts();
+        espVazio();
+        mostrarClicks();
+    </script>-->
+
+    <footer>
+        <p style="color:white">Resposta: 3-5; 3-6; 4-6; 1-3-6; 4-5-6; entre outras...</p>
+        <p>Criado por D.G.B. Ferreira &copy;</p>
+    </footer>
+</body>
+
+</html>
